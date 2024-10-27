@@ -10,10 +10,12 @@ public class StackClass {
 		stack.push(4);
 		stack.push(5);
 		stack.printStack();
+		System.out.println("Element at peek is: " + stack.peek());
 
 		stack.pop();
 		stack.pop();
 		stack.printStack();
+		System.out.println("Element at peek is: " + stack.peek());
 	}
 }
 
